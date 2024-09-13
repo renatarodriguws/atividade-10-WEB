@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  text-decoration:none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+  font-size:xxx-large;
+  text-align: -webkit-center;
+  display: flex;
+  align-self: flex-end;
+}
+
+#second a{
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+img#logo{
+  width: 100px;
+}
+div#logo{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+#menu{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.item-menu{
+  list-style-type: none;
+}
+figure img{
+  width: 300px;
+}
+figure{
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  margin-left: 0;
+}
+#principal{
+  width: 1200px;
+  padding: 10px;
+}
+#principal, #sec_ctd{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+#sec_ctd{
+  flex-direction: column;
+  padding-right: 50px;
+  justify-content: left;
+  display: flex;
+  flex: 1;
+}
+#sec_ctd p{
+  width: 500px;
+  text-align: justify;
+  align-self: flex-start;
+}
+#second{
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.capa{
+  width: 200px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+#contato{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+#email{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+#email a{
+  color: white;
+  text-decoration: none;
+}
+#social{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+}
+#social a img{
+  display: flex;
+  width: 30px;
+  align-self: center;
+}
+#sinopse, #resumo{
+  display: flex;
+  flex-direction: column;
+}
+#descricao{
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+div#descricao{
+  padding-right: 400px;
+  font-weight: bold;
+}
+#acesso{
+  padding: 25px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-size: 20px;
+}
+#acesso.l{
+  color: white;
+  padding: 25px 80px;
+}
+a{
+  text-decoration: none;
+}
+
+.m#acesso{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 40px 80px;
+}
+.m a img{
+  width: 40px;
+}
+#descricao ol{
+  font-weight: normal;
+}
+
